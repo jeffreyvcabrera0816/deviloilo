@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.RestaurantsPage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/rest_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/app_icon" />
+
+        <ph.com.jeffreyvcabrera.iamiloilorecode.utils.CustomTextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/rest_image"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp"
+            android:text="test"
+            android:textColor="@color/app_black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:type="AntonioRegular" />
+
+        <ph.com.jeffreyvcabrera.iamiloilorecode.utils.CustomTextView
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_toRightOf="@+id/rest_image"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="test"
+            android:textColor="@color/app_black"
+            android:textSize="@dimen/normal_font"
+            app:type="HelveticaLight" />
+
+        <ph.com.jeffreyvcabrera.iamiloilorecode.utils.CustomTextView
+            android:id="@+id/tell_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/address"
+            android:layout_toRightOf="@+id/rest_image"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Promo Until: Dec 12, 2013"
+            android:textColor="@color/app_black"
+            android:textSize="@dimen/normal_font"
+            app:type="HelveticaLight" />
+
+        <ph.com.jeffreyvcabrera.iamiloilorecode.utils.CustomTextView
+            android:id="@+id/opens"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tell_no"
+            android:layout_toRightOf="@+id/rest_image"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Promo Until: Dec 12, 2013"
+            android:textColor="@color/app_black"
+            android:textSize="@dimen/normal_font"
+            app:type="HelveticaLight" />
+
+        <ListView
+            android:layout_marginTop="40dp"
+            android:divider="@null"
+            android:id="@+id/listviewRooms"
+            android:dividerHeight="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/opens"></ListView>
+
+        <ph.com.jeffreyvcabrera.iamiloilorecode.utils.CustomTextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/listviewRooms"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Promo Until: Dec 12, 2013"
+            android:textColor="@color/app_black"
+            android:textSize="@dimen/normal_font"
+            app:type="HelveticaLight" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

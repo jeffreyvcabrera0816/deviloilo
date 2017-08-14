@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_setting">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/app_margin_padding_large"
+        android:orientation="vertical">
+
+        <ph.com.jeffreyvcabrera.iamiloilorecode.utils.CustomTextView
+            android:id="@+id/register_wc_toplabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="REGISTER AN ACCOUNT!"
+            android:textColor="@color/app_white"
+            android:textSize="25sp"
+            app:type="AntonioRegular" />
+
+        <ph.com.jeffreyvcabrera.iamiloilorecode.utils.CustomTextView
+            android:id="@+id/register_wc_toplabel2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/app_margin_padding_large"
+            android:layout_marginTop="@dimen/app_margin_padding_large"
+            android:gravity="center"
+            android:text="@string/txt_Kindly_register_below"
+            android:textColor="@color/app_white"
+            android:textSize="14sp"
+            app:type="HelveticaLight" />
+
+        <!--  -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="@dimen/app_margin_padding_large"
+            android:layout_marginRight="@dimen/app_margin_padding_large"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/emergency_txt_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="3">
+
+            <ph.com.jeffreyvcabrera.iamiloilorecode.utils.CustomTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/txt_First_Name"
+                android:textColor="@color/app_white"
+                app:type="HelveticaLight" />
+
+            <View
+                android:id="@+id/view_line1"
+                android:layout_width="1dp"
+                android:layout_height="30dp"
+                android:background="@drawable/line" />
+
+            <EditText
+                android:id="@+id/editTextRUAFirstName"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="2"
+                android:background="@drawable/emergency_edt_bg"
+                android:imeOptions="actionNext"
+                android:inputType="textCapWords"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:textColor="@color/app_white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!--  -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="@dimen/app_margin_padding_large"
+            android:layout_marginRight="@dimen/app_margin_padding_large"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/emergency_txt_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="3">
+
+            <ph.com.jeffreyvcabrera.iamiloilorecode.utils.CustomTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/txt_Last_Name"
+                android:textColor="@color/app_white"
+                app:type="HelveticaLight" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/line" />
+
+            <EditText
+                android:id="@+id/editTextRUALastName"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="2"
+                android:background="@drawable/emergency_edt_bg"
+                android:imeOptions="actionNext"
+                android:inputType="textCapWords"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:textColor="@color/app_white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!--  -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="@dimen/app_margin_padding_large"
+            android:layout_marginRight="@dimen/app_margin_padding_large"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/emergency_txt_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="3">
+
+            <ph.com.jeffreyvcabrera.iamiloilorecode.utils.CustomTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/txt_Mobile_Number"
+                android:textColor="@color/app_white"
+                app:type="HelveticaLight" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/line" />
+
+            <EditText
+                android:id="@+id/editTextRUAMobileNumber"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="2"
+                android:background="@drawable/emergency_edt_bg"
+                android:hint="09XXXXXXXXX"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:textColor="@color/app_white"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <!--  -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="@dimen/app_margin_padding_large"
+            android:layout_marginRight="@dimen/app_margin_padding_large"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/emergency_txt_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="3">
+
+            <ph.com.jeffreyvcabrera.iamiloilorecode.utils.CustomTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/txt_Birthday"
+                android:textColor="@color/app_white"
+                app:type="HelveticaLight" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/line" />
+
+            <EditText
+                android:id="@+id/editTextRUABirthday"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="2"
+                android:background="@drawable/emergency_edt_bg"
+                android:editable="false"
+                android:imeOptions="actionNext"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:textColor="@color/app_white"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <!--  -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="@dimen/app_margin_padding_large"
+            android:layout_marginRight="@dimen/app_margin_padding_large"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/emergency_txt_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <ph.com.jeffreyvcabrera.iamiloilorecode.utils.CustomTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/txt_Email_Address"
+                android:textColor="@color/app_white"
+                app:type="HelveticaLight" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/line" />
+
+            <EditText
+                android:id="@+id/editTextRUAEmailAddress"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="2"
+                android:background="@drawable/emergency_edt_bg"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:textColor="@color/app_white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!--  -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="@dimen/app_margin_padding_large"
+            android:layout_marginRight="@dimen/app_margin_padding_large"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/emergency_txt_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <ph.com.jeffreyvcabrera.iamiloilorecode.utils.CustomTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/txt_Password"
+                android:textColor="@color/app_white"
+                app:type="HelveticaLight" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/line" />
+
+            <EditText
+                android:id="@+id/editTextRUAPassword"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="2"
+                android:background="@drawable/emergency_edt_bg"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:textColor="@color/app_white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!--  -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="@dimen/app_margin_padding_large"
+            android:layout_marginRight="@dimen/app_margin_padding_large"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/emergency_txt_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <ph.com.jeffreyvcabrera.iamiloilorecode.utils.CustomTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/txt_Re_enter_Password"
+                android:textColor="@color/app_white"
+                app:type="HelveticaLight" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/line" />
+
+            <EditText
+                android:id="@+id/editTextRUARePassword"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="2"
+                android:background="@drawable/emergency_edt_bg"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:textColor="@color/app_white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_termscondition"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBoxRAUTerms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false" />
+
+            <ph.com.jeffreyvcabrera.iamiloilorecode.utils.CustomTextView
+                android:id="@+id/textviewRAUTerms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/txt_agrees_terms_condition"
+                android:textColor="@color/app_white"
+                android:textSize="15sp"
+                app:type="HelveticaLight" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tmpe"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:id="@+id/linearLayoutRAURegister"
+                android:layout_width="300dp"
+                android:layout_height="55dp"
+                android:background="@drawable/signin_btn"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ph.com.jeffreyvcabrera.iamiloilorecode.utils.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/send_btn"
+                    android:drawablePadding="10dp"
+                    android:gravity="center"
+                    android:text="@string/txt_REGISTER"
+                    android:textColor="@color/app_white"
+                    android:textSize="18sp"
+                    app:type="AntonioRegular" />
+            </LinearLayout>
+        </LinearLayout>
+        <!--  -->
+    </LinearLayout>
+
+
+</ScrollView>

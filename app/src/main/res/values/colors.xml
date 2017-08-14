@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#ff471a</color>
+    <color name="colorPrimaryDark">#e62e00</color>
+    <color name="colorAccent">#0066ff</color>
+    <color name="yellow_orange">#000000</color>
+
+    <color name="black">#111111</color>
+    <color name="black_light">#212121</color>
+    <color name="purple">#CD0174</color>
+    <color name="orange">#ff751a</color>
+    <color name="white">#FAFAFA</color>
+    <color name="action_bar">#141414</color>
+    <color name="gray">#9E9E9E</color>
+    <color name="yellow">#FFFF01</color>
+    <color name="register_bg">#0f0f0f</color>
+
+    <color name="top_bar">#ff3606</color>
+    <color name="app_white">#ffffff</color>
+    <color name="app_black">#000000</color>
+    <color name="app_newsdtl_toptxt">#008fbb</color>
+    <color name="app_newsdtl_subttl">#aaaaaa</color>
+    <color name="app_dark_grey">#484848</color>
+    <color name="app_txt_blue">#007aff</color>
+    <color name="app_txt_red">#ff2f19</color>
+    <color name="app_list_blue">#007aff</color>
+    <color name="app_bottom_tabbar">#ff3606</color>
+    <color name="app_tab_selected">#003db9</color>
+    <color name="app_dark_grey_txt">#6d6d6d</color>
+    <color name="app_btn_blue_color_bg">#2f55c6</color>
+    <color name="app_transparnt_black_bg">#B3000000</color>
+    <color name="app_transparnt_gray_bg">#B37c7a76</color>
+    <color name="edt_search_color_bg">#efeff4</color>
+    <color name="txt_light_white_color">#b4aa9e</color>
+    <color name="app_dark_gray_bg">#bab9b9</color>
+    <color name="app_block_comment_color">#668fd2</color>
+    <!--  -->
+    <color name="app_attr_dtl_cell_color_bg">#efeff4</color>
+    <color name="app_alert_bg">#e6e4e4</color>
+    <color name="transparent">#00000000</color>
+    <color name="app_custom_progress">#F63600</color>
+    <color name="dark_slate_gray">#2F4F4F</color>
+    <color name="gray_2">#AFAFAF</color>
+    <color name="gray_1">#C0C0C0</color>
+
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/row_news"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:background="#f2f2f2"
+        android:paddingBottom="12dp">
+
+        <RelativeLayout
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="12dp"
+            android:id="@+id/upper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <ImageView
+                android:id="@+id/news_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY" />
+
+        </RelativeLayout>
+
+        <ph.com.jeffreyvcabrera.iamiloilorecode.utils.CustomTextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/upper"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="0dp"
+            android:text="test"
+            android:textColor="@color/app_black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:type="AntonioRegular" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

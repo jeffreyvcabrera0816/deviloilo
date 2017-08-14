@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_promo_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="ph.com.jeffreyvcabrera.iamiloilorecode.activities.PromoPage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/promo_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@mipmap/placeholder" />
+
+        <ph.com.jeffreyvcabrera.iamiloilorecode.utils.CustomTextView
+            android:id="@+id/title"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/promo_image"
+            android:layout_marginTop="12dp"
+            android:text="Title"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:type="AntonioRegular" />
+
+        <LinearLayout
+            android:id="@+id/layout_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ph.com.jeffreyvcabrera.iamiloilorecode.utils.CustomTextView
+                android:id="@+id/promo_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/promo_image"
+                android:layout_marginRight="10dp"
+                android:text="P300"
+                android:textColor="#006600"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                app:type="AntonioRegular" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ph.com.jeffreyvcabrera.iamiloilorecode.utils.CustomTextView
+                    android:id="@+id/promo_discount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/promo_image"
+                    android:layout_toRightOf="@id/promo_price"
+                    android:text="Save 40% off"
+                    android:textSize="18sp"
+                    app:type="AntonioRegular" />
+
+                <ph.com.jeffreyvcabrera.iamiloilorecode.utils.CustomTextView
+                    android:id="@+id/promo_discount_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/promo_discount"
+                    android:layout_toRightOf="@id/promo_price"
+                    android:text="P550"
+                    android:textSize="18sp"
+                    app:type="AntonioRegular" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_1"
+            android:gravity="center">
+
+            <ph.com.jeffreyvcabrera.iamiloilorecode.utils.CustomTextView
+                android:id="@+id/promo_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/sample_description"
+                android:textSize="18sp"
+                app:type="HelveticaLight" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ph.com.jeffreyvcabrera.iamiloilorecode.utils.CustomTextView
+                android:id="@+id/coupons_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Only 192 tickets left"
+                android:textSize="18sp"
+                app:type="HelveticaLight" />
+
+            <LinearLayout
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/edit_text_border"
+                    android:paddingLeft="10dp"
+                    android:inputType="number"
+                    android:text="1" />
+
+                <ph.com.jeffreyvcabrera.iamiloilorecode.utils.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Quantity"
+                    android:textSize="18sp"
+                    app:type="HelveticaLight" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buy_button"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/white"
+                android:background="@color/top_bar"
+                android:text="Buy Now" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.synnapps.carouselview.CarouselView
+        android:id="@+id/customCarouselView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/rest_image"
+        android:layout_marginTop="12dp"
+        app:disableAutoPlayOnUserInteraction="true"
+        app:fillColor="#FFFFFFFF"
+        app:pageColor="#00000000"
+        app:snap="false"
+        app:radius="6dp"
+        app:strokeColor="#FF777777"
+        app:strokeWidth="1dp" />
+
+    <LinearLayout
+        android:id="@+id/amen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rest_image"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:src="@mipmap/wifi" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:src="@mipmap/smoking" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:src="@mipmap/dinner" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:src="@mipmap/cocktail" />
+    </LinearLayout>
+
+    <!--<ph.com.jeffreyvcabrera.iamiloilorecode.utils.CustomTextView-->
+        <!--android:id="@+id/roomName"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_below="@+id/upper"-->
+        <!--android:paddingTop="5dp"-->
+        <!--android:text="test"-->
+        <!--android:textColor="@color/app_black"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textStyle="bold"-->
+        <!--app:type="AntonioRegular"/>-->
+
+</LinearLayout>

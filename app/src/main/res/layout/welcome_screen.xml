@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/welcome_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/wc_main_txt_img"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:src="@drawable/wc_text" />
+
+            <ImageView
+                android:id="@+id/wc_btn_or"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/wc_tourist_relative"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/wc_or" />
+
+            <RelativeLayout
+                android:id="@+id/wc_tourist_relative"
+                android:layout_width="320dp"
+                android:layout_height="100dp"
+                android:background="@drawable/wc_btn"
+                android:layout_below="@+id/wc_main_txt_img"
+                android:layout_centerHorizontal="true">
+
+                <ImageView
+                    android:id="@+id/wc_tourist_relative_usr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="35dp"
+                    android:src="@drawable/wc_tourist_usr" />
+
+                <ph.com.jeffreyvcabrera.iamiloilorecode.utils.CustomTextView
+                    android:id="@+id/wc_tourist_relative_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="23dp"
+                    android:layout_toRightOf="@+id/wc_tourist_relative_usr"
+                    android:text="@string/wc_tourist_txt"
+                    android:textColor="@color/app_black"
+                    android:textSize="30sp"
+                    app:type="AntonioLight" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/wc_local_relative"
+                android:layout_width="320dp"
+                android:layout_height="100dp"
+                android:background="@drawable/wc_btn"
+                android:layout_below="@+id/wc_btn_or"
+                android:layout_alignLeft="@+id/wc_tourist_relative"
+                android:layout_alignStart="@+id/wc_tourist_relative">
+
+                <ImageView
+                    android:id="@+id/wc_local_relative_usr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="35dp"
+                    android:src="@drawable/wc_usr" />
+
+                <ph.com.jeffreyvcabrera.iamiloilorecode.utils.CustomTextView
+                    android:id="@+id/wc_local_relative_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="23dp"
+                    android:layout_toRightOf="@+id/wc_local_relative_usr"
+                    android:text="@string/wc_local_txt"
+                    android:textColor="@color/app_black"
+                    android:textSize="30sp"
+                    app:type="AntonioLight" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

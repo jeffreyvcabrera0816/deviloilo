@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="40dp">
+
+    <ph.com.jeffreyvcabrera.iamiloilorecode.utils.CustomTextView
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/message_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Reference Number"
+        android:layout_marginBottom="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        app:type="AntonioRegular"/>
+
+    <ph.com.jeffreyvcabrera.iamiloilorecode.utils.CustomTextView
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/message_mid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/top_bar"
+        android:text="XXXXXXX"
+        android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        app:type="AntonioRegular"/>
+
+    <ph.com.jeffreyvcabrera.iamiloilorecode.utils.CustomTextView
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/message_bot"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:text="Please proceed to any 7-11 branch to complete your purchase, please input the reference number."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        app:type="AntonioRegular"/>
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/chkbox"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Send me an email"/>
+
+
+
+</LinearLayout>

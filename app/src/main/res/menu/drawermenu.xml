@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Main"
+        android:id="@+id/main"/>
+
+    <!--<item android:title="My Profile"-->
+        <!--android:id="@+id/nav_item_profile"/>-->
+
+    <item android:title="My Coupons"
+        android:id="@+id/nav_item_coupons"/>
+
+    <item android:title="Privacy Policy"
+        android:id="@+id/nav_item_policy"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout" />
+
+</menu>

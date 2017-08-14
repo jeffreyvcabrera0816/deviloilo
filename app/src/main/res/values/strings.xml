@@ -1,0 +1,187 @@
+<resources>
+    <string name="app_name">I Am Iloilo dev</string>
+    <string name="facebook_app_id">531753880368641</string>
+
+    <string name="one">coupon</string>
+    <string name="eight">EIGHT</string>
+    <string name="five">Attractions</string>
+    <string name="four">Hotels</string>
+    <string name="nine">NINE</string>
+    <string name="seven">SEVEN</string>
+    <string name="six">Emergency</string>
+    <string name="ten">TEN</string>
+    <string name="three">Restaurants</string>
+    <string name="two">News Feed</string>
+    <string name="title_activity_scrollable_tabs">Scrollable Tabs</string>
+    <string name="title_activity_simple_tabs">Simple Tabs</string>
+    <string name="btn_simple_tabs">Simple Tabs</string>
+    <string name="btn_scrollable_tabs">Scrollable Tabs</string>
+    <string name="btn_icon_text_tabs">Icon &amp; Text Tabs</string>
+    <string name="btn_icon_tabs">Only Icon Tabs</string>
+    <string name="btn_pinned_top_tabs">Pinned To Top Tabs</string>
+    <string name="title_activity_icon_text_tabs">Icon and Text Tabs</string>
+    <string name="title_activity_icon_tabs">Icon Tabs</string>
+    <string name="btn_custom_icon_tabs">Custom View Icon &amp; Text</string>
+    <string name="title_activity_custom_view_icon_text_tabs">Custom View Icon &amp; Text</string>
+    <string name="title_activity_pinned_top_tabs">Pin Top Tabs</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="sample_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget odio id metus pellentesque semper.</string>
+    <string name="sample_title">Lorem ipsum</string>
+
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="app_id">994164687306768</string>
+    <!--  -->
+
+    <string name="action_settings">Settings</string>
+    <string name="wc_topbar_wc_guest">WELCOME GUEST!</string>
+    <string name="wc_topbar_wc_tourist">WELCOME TOURIST!</string>
+    <string name="wc_topbar_wc_john">WELCOME JOHN DOE!</string>
+
+    <string name="wc_tourist_txt">TOURIST</string>
+    <string name="wc_local_txt">LOCAL</string>
+    <string name="wc_tourist_txt1">WELCOME TO ILOILO</string>
+    <string name="wc_tourist_txt2">We are pleased to provide you with the following features:</string>
+    <string name="wc_tourist_txt3">You may also add our other features:</string>
+    <string name="wc_tourist_newsfeed_hint">News Feed</string>
+    <string name="wc_tourist_attraction_hint">Attractions</string>
+    <string name="wc_tourist_emergency_hint">Emergency Response</string>
+    <string name="wc_tourist_hotel_hint">Hotels</string>
+    <string name="wc_tourist_jobopprtunities_hint">Job Opportunities</string>
+    <string name="wc_tourist_poll_hint">Poll</string>
+    <string name="wc_tourist_terms_txt">I agree to the terms &amp; conditions</string>
+    <string name="cancel_txt">CANCEL</string>
+    <string name="wc_tourist_restaurant">Restaurants &amp; Delivery</string>
+    <string name="next_txt">NEXT</string>
+    <string name="dummy_dtl_txt">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+    <string name="news_txt">News</string>
+    <string name="emergency_txt">Emergency</string>
+    <string name="restaurant_txt">Restaurants</string>
+    <string name="hotel_txt">Hotels</string>
+    <string name="job_txt">Job Opportunities</string>
+    <string name="polls_txt">Polls</string>
+    <string name="attraction_txt">Attractions</string>
+    <string name="stting_txt">Settings</string>
+
+    <!-- resturant screen -->
+    <string name="resturant_amenities_txt">AMENITIES</string>
+    <string name="txt_COMMENTS">COMMENTS</string>
+
+    <!-- emergency screen -->
+    <string name="btn_send_location_emergency">SEND LOCATION</string>
+    <string name="map_pin_msg_emergency">Please move the pin in where emergency is.</string>
+    <string name="reported_by_txt">Reported by</string>
+    <string name="category_txt">Category</string>
+    <string name="detail_txt">Details</string>
+    <string name="location_txt">Location</string>
+    <string name="date_txt">Date</string>
+    <string name="time_txt">Time</string>
+    <string name="status_txt">Status</string>
+    <string name="contact_txt">Contact No.</string>
+    <string name="txt_term_of_use">Term of Use</string>
+    <string name="txt_privacy_policy">Privacy Policy</string>
+    <string name="hint_search_job">Search Job</string>
+    <string name="graphics_artist_txt">Graphics Artist</string>
+    <string name="job_description_txt">Job Description</string>
+    <string name="qualification_txt">Qualification</string>
+    <string name="company_name_txt">Company Name :</string>
+    <string name="location_txt_job">Location :</string>
+    <string name="category_name_txt_job">Category Name :</string>
+    <string name="date_posted_txt_job">Date Posted :</string>
+    <string name="year_of_experience_job">Year of experience :</string>
+    <string name="salery_range_job">Salary Range :</string>
+    <string name="dummy_str">Lorem ipsum dolor sit er elit lamet, consectetaur</string>
+    <string name="txt_dont_have_account">Don\'t have account yet?</string>
+    <string name="sign_up_for_free">SIGN UP FOR FREE</string>
+    <string name="cancel_btn">CANCEL</string>
+    <string name="btn_Cancel">Cancel</string>
+    <string name="sign_in_btn">SIGN IN</string>
+    <string name="submit_btn">SUBMIT</string>
+    <string name="hint_email_address">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="login_txt">LOGIN</string>
+    <string name="send_report_btn">SEND REPORT</string>
+    <string name="DONE_btn">DONE</string>
+    <string name="UPLOAD_JOB">UPLOAD JOB</string>
+    <string name="txt_Forgot_Password_que">Forgot your password?</string>
+    <!--  -->
+
+    <string name="txt_PRIVACY_POLICY">PRIVACY POLICY</string>
+    <string name="txt_HELP">HELP</string>
+    <string name="txt_TERMS_OF_USE">TERMS OF USE</string>
+    <string name="txt_ABOUT_THIS_APP">ABOUT THIS APP</string>
+    <string name="txt_APP_NAME">APP NAME</string>
+    <string name="txt_VERSION">VERSION</string>
+
+    <!--  -->
+    <string name="txt_Load_More">Load More...</string>
+    <string name="txt_RATING_REVIEW">REVIEWS</string>
+    <string name="txt_RATING_REVIEW_TTL">REVIEW</string>
+    <string name="txt_RATING_COMMENT">COMMENTS</string>
+    <string name="txt_RATING_COMMENT_TTL">COMMENT</string>
+    <string name="txt_Write_a_comment">Write a comment</string>
+    <string name="txt_Write_a_review">Write a review</string>
+    <string name="txt_Post_Comment">Post Comment</string>
+    <string name="txt_Post_Review">Post Review</string>
+    <string name="txt_Enter_your_name">Enter your name</string>
+    <string name="txt_Enter_your_email">Enter your email</string>
+
+    <!--  -->
+    <string name="txt_First_Name">First Name</string>
+    <string name="txt_Last_Name">Last Name</string>
+    <string name="txt_Mobile_Number">Mobile Number</string>
+    <string name="txt_Birthday">Birth Date</string>
+    <string name="txt_Email">Email Address</string>
+    <string name="txt_Password">Password</string>
+    <string name="txt_Confirm_Password">Confirm Password</string>
+    <string name="txt_SAVE">SAVE</string>
+
+    <string name="txt_Old_Password">Old Password</string>
+    <string name="txt_New_Password">New Password</string>
+
+    <string name="txt_EDIT_PROFILE">EDIT PROFILE</string>
+    <string name="txt_Email_Address">Email Address</string>
+    <string name="txt_Re_enter_Password">Re-enter Password</string>
+    <string name="txt_agrees_terms_condition">I agree to the terms and conditions</string>
+    <string name="txt_REGISTER">REGISTER</string>
+    <string name="txt_REGISTER_AN_ACCOUNT">REGISTER AN ACCOUNT!</string>
+    <string name="txt_Kindly_register_below">Kindly register below</string>
+
+    <string name="txt_CHANGE_PASSWORD">CHANGE PASSWORD</string>
+
+    <!-- Validation -->
+    <string name="txt_Unknown">Unknown</string>
+    <string name="txt_No_Internet">Sorry, network is not available. Please try again later.</string>
+    <string name="error_empty_email">Please Enter Email Address.</string>
+    <string name="error_invalid_email">Email address format is not valid.</string>
+    <string name="error_empty_password">Please Enter Password.</string>
+    <string name="error_empty_new_password">Please Enter New Password.</string>
+    <string name="error_empty_confirm_password">Please Enter Re-enter Password.</string>
+    <string name="error_no_match_confirm_password">New password does not match the re-entered password.</string>
+    <string name="error_empty_Firstname">Please Enter Firstname.</string>
+    <string name="error_empty_Lastname">Please Enter Lastname.</string>
+    <string name="error_empty_Mobilenumber">Please Enter Mobile Number.</string>
+    <string name="error_empty_bithdate">Please Enter Birth-date.</string>
+    <string name="txt_quit_confirm">Do you want to Quit?</string>
+    <string name="txt_error_occurs">Sorry, network is not available. Please try again later.</string>
+    <string name="error_empty_Address">Please Enter Address.</string>
+    <string name="error_empty_city">Please Select City.</string>
+    <string name="error_empty_mobile">Please Enter Mobile No.</string>
+    <string name="error_invalid_mobile">Please enter valid mobile no. i.e. 09171229333</string>
+    <string name="error_empty_name">Please Enter Name.</string>
+
+
+    <!--  -->
+    <string name="txt_privacy_policy_content">We collect personal and activity data, which may be linked. \n\nWe use technologies like cookies (small files stored on your browser), web beacons, or unique device identifiers to identify your computer or device so we can deliver a better experience. Our systems also log information like your browser, operating system and IP address.\n\nWe also may collect personally identifiable information that you provide to us, such as your name, address, phone number or email address. With your permission, we may also access other personal information on your device, such as your phone book, calendar or messages, in order to provide services to you. If authorized by you, we may also access profile and other information from services like Facebook.\n\nOur systems may associate this personal information with your activities in the course of providing service to you (such as pages you view or things you click on or search for).\n\nWe do not knowingly contact or collect personal information from people under 13. If you believe we have inadvertently collected such information, please contact us so we can promptly obtain parental consent or remove the information.\n\nWe collect or share your location only with permission.\n\nIn serving you, we may use or store your precise geographic location, if you give us permission to do so. We do not use or share this data for any other purpose. Many devices will indicate through an icon when location services are operating. We only share this location information with others as approved by you.\n\nYou can request to see your personal data.\n\nYou can sign into your account to see any personally identifiable information we have stored, such as your name, email, address or phone number. You can also contact us by email to request to see this information.\n\nWe may keep data indefinitely.\n\nWe may share personal data with companies we trust.\n\nWe may share personally identifiable information (such as name, address, email or phone) with trusted partners in order to provide you with relevant advertising, offers or services.\n\nPhilippine residents are legally entitled (at no charge and no more than once annually) to request information about how we may have shared your information with others for direct marketing purposes. Contact us for this information: support@tidalsolutions.net\n\nAd companies collect anonymous data. You can opt out.\n\nAd companies may use and collect anonymous data about your interests to customize content and advertising here and in other sites and applications. Interest and location data may be linked to your device, but is not linked to your identity. Click to see company privacy policies and opt-out choices:\n\nYou can ask privacy questions.\n\nIf you have any questions or concerns about our privacy policies, please contact us: support@tidalsolutions.net\n\nService providers access data on our behalf.\n\nIn order to serve you, we may share your personal and anonymous information with other companies, including vendors and contractors. Their use of information is limited to these purposes, and subject to agreements that require them to keep the information confidential. Our vendors provide assurance that they take reasonable steps to safeguard the data they hold on our behalf, although data security cannot be guaranteed.\n\nAnalytics companies may access anonymous data (such as your IP address or device ID) to help us understand how our services are used. They use this data solely on our behalf. They do not share it except in aggregate form; no data is shared as to any individual user. Click to see company privacy policies that govern their use of data.\n\nWe take steps to protect personal information\n\nWe take reasonable steps to secure your personally identifiable information against unauthorized access or disclosure. We encrypt transmission of data on pages where you provide payment information. However, no security or encryption method can be guaranteed to protect information from hackers or human error.\n\nInformation we collect may be stored or processed on computers located in any country where we do business.\n\nSpecial situations may require disclosure of your data.\n\nTo operate the service, we also may make identifiable and anonymous information available to third parties in these limited circumstances: (1) with your express consent, (2) when we have a good faith belief it is required by law, (3) when we have a good faith belief it is necessary to protect our rights or property, or (4) to any successor or purchaser in a merger, acquisition, liquidation, dissolution or sale of assets. Your consent will not be required for disclosure in these cases, but we will attempt to notify you, to the extent permitted by law to do so.\n\nThis privacy policy was last updated on 8/20/15. Our privacy policy may change from time to time. If we make any material changes to our policies, we will place a prominent notice on our website or application. If the change materially affects registered users, we will send a notice to you by email, push notification or text. Please read our full privacy policy, which includes other important information.</string>
+    <string name="txt_terms_header">IamIloilo Website Terms, Conditions and Notices</string>
+    <string name="txt_terms_content">Welcome to the Iamiloilo website or mobile properties, including related applications (collectively, this "Website"). This Website is provided solely to assist users in gathering travel information about Iloilo, posting opinions of travel related issues, the cities achievements, announcements, polls, job listing, and another way for reporting an emergency and for no other purposes.\n\nThe terms “we”, “us”, “our” and “IamIoilo” refer to Tidal Solutions Corp, a Philippines based corporation and/or our subsidiaries. The term “you” refers to the customer visiting the Website and/or contributing content on this Website.This Website is offered to you conditioned upon your acceptance without modification of any/all the terms, conditions, and notices set forth below (collectively, the “Agreement”). By accessing or using this Website in any manner, you agree to be bound by the Agreement and represent that you have read and understood its terms. Please read the Agreement carefully, as it contains information concerning your legal rights and limitations on these rights, as well as a section regarding applicable law and jurisdiction of disputes. If you do not accept all of these terms and conditions, please do not use this Website.\nOur performance of this Agreement is subject to existing laws and legal process, and nothing contained in this Agreement limits our right to comply with law enforcement or other governmental or legal requests or requirements relating to your use of this Website or information provided to or gathered by us with respect to such use. To the extent allowed by applicable law, you agree that you will bring any claim or cause of action arising from or relating to your access or use of this Website within two (2) years from the date on which such claim or action arose or accrued or such claim or cause of action will be irrevocably waived.If any part of this Agreement is determined to be invalid or unenforceable pursuant to applicable law including, but not limited to, the warranty disclaimers and liability limitations set forth above, then the invalid or unenforceable provision will be deemed superseded by a valid, enforceable provision that most closely matches the intent of the original provision and the remaining provisions in the Agreement shall continue in effect.\nThis Agreement (and any other terms and conditions referenced herein) constitutes the entire agreement between you and Iamiloilo with respect to this Website and it supersedes all prior or contemporaneous communications and proposals, whether electronic, oral, or written, between the customer and Iamiloilo with respect to this Website. A printed version of this Agreement and of any notice given in electronic form shall be admissible in judicial or administrative proceedings based upon or relating to this Agreement to the same extent and subject to the same conditions as other business documents and records originally generated and maintained in printed form.Fictitious names of companies, products, people, characters, and/or data mentioned on this Website are not intended to represent any real individual, company, product, or event.\nAny rights not expressly granted herein are reserved.\n\n\n©2015 IamIloilo. All rights reserved.</string>
+
+    <string name="txt_help_header">I am Iloilo - FAQ</string>
+
+    <!--  -->
+    <string name="txt_block_title">I don\'t want to see this</string>
+    <string name="txt_block_offence">I find it offensive</string>
+    <string name="txt_block_spam">I think it\'s SPAM</string>
+    <string name="txt_block_no_interst">I am not interested</string>
+</resources>
